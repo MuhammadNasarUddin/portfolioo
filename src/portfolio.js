@@ -1,48 +1,49 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'N A S A R',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Muhammad Nasar',
+  role: 'Python Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Passionate Python developer specializing in creating efficient and scalable applications. Experienced in developing web applications, APIs, and automation scripts using Python. Proficient in various Python libraries and frameworks such as Django, Flask, and NumPy. Excited about leveraging Python to solve complex problems and deliver high-quality software solutions.',
+  resume: 'https://pink-aleta-19.tiiny.site/',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/muhammadnasar56/',
+    github: 'https://github.com/MuhammadNasarUddin',
   },
-}
+};
+
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'AI Tools',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    "A website offering diverse AI tools and applications developed with Python, Flask, OpenAI, and other free Python libraries.",
+        stack: ['Python', 'Flask', 'OpenAI'],
+    sourceCode: 'https://github.com/MuhammadNasarUddin/nasar',
+    livePreview: 'https://nasar.rehanlabs.com/',
   },
   {
-    name: 'Project 2',
+    name: 'E-commerce',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    'A Python and Django-based e-commerce platform with Bootstrap for responsive design, featuring Google login and order confirmation emails for enhanced user experience.',
+    stack: ['Python', 'Django', 'Bootstrap'],
+    sourceCode: 'https://github.com/MuhammadNasarUddin/malefashion',
+    livePreview: 'https://github.com/MuhammadNasarUddin/malefashion',
   },
   {
-    name: 'Project 3',
+    name: 'E-library',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    "A Python and Django web app for e-libraries enabling browsing, user registration, book requests, and admin approval/rejection of requests.",
+    stack: ['Python', 'Django', 'Bootstrap'],
+    sourceCode: 'https://github.com/MuhammadNasarUddin/elibrary',
+    livePreview: 'https://github.com/MuhammadNasarUddin/elibrary',
   },
 ]
 
@@ -51,21 +52,20 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
+  'Bootstrap',
   'JavaScript',
-  'TypeScript',
+  'Python',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Django',
+  'Flask',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Linux'
+  
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'muhammadnasar012@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
